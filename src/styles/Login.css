@@ -1,0 +1,35 @@
+.Login {
+    background: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+@media (max-width:500px) {
+    .Login {
+        width: 270px;
+    }
+}
+
+.Login > input {
+    border: 2px solid #efefef;
+    border-radius: 20px;
+    padding-left: 20px;
+    height: 40px;
+    background: white;
+    margin-bottom: 15px;
+}
+
+.Login > button {
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    height: 40px;
+    background: white;
+    margin-bottom: 15px;
+    background: #7ad68a;
+}
